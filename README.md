@@ -70,7 +70,7 @@ To ensure the smooth operation of the application the complete code is wrapped i
 
         userName.toUpperCase();
 
-* For practice purposes I decided to use XHR _(XMLHttpRequest)_ for fetching the data.
+* I use XHR _(XMLHttpRequest)_ for fetching the data.
 * In the .open() method the link contains an object literal (username), which ensures that the search will result in the list of repositories of a particular person
 
   > const xhr = new XMLHttpRequest();
