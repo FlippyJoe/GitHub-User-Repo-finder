@@ -61,6 +61,10 @@ input:focus {
   margin: 0 auto;
 }
 
+.numberOfRepos{
+  margin-left: 1rem;
+}
+
 button {
   cursor: pointer;
   background-color: #423d3d;
