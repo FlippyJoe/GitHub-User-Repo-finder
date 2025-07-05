@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find GitHub repos</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="repos.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=League+Script&family=Love+Light&family=Lovers+Quarrel&family=Roboto:ital,wght@0,100..900;1,100..900&family=Send+Flowers&family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Find GitHub Repositories</h1>
+      <h3>
+        Enter the username of GitHub user and receive the list of their
+        repositories
+      </h3>
+    </header>
+    <main>
+      <div class="input-section">
+        <label for="nameInput">Enter name here: </label>
+        <input type="text" name="nameInput" id="nameInput" />
+        <br />
+        <button class="searchBtn">Search</button>
+      </div>
+      <br />
+      <div class="yourUserName"></div>
+      <br />
+      <div class="numberOfRepos"></div>
+      <br />
+      <div class="repo-container">
+        <ul class="repo-ul"></ul>
+      </div>
+    </main>
+  </body>
+</html>
